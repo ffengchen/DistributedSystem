@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07b600cd-820d-41cc-bedd-c5feca27de28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/records256.csv" beforeDir="false" afterPath="$PROJECT_DIR$/records256.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/records64.csv" beforeDir="false" afterPath="$PROJECT_DIR$/records64.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Part1/ClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Part1/ClientThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Part1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Part1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Part2/ClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Part2/ClientThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Part2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Part2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swagger-java-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/swagger-java-client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment1/src/main/java/Part1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment1/src/main/java/Part1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment1/swagger-java-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment1/swagger-java-client.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +40,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1hqBhy696ZfDeGBme8QMdGFglZo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -110,11 +104,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part1.Main" />
+      <option name="MAIN_CLASS_NAME" value="Client.Main" />
       <module name="swagger-java-client.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part1.*" />
+          <option name="PATTERN" value="Client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,6 +187,9 @@
       <workItem from="1603324162007" duration="62000" />
       <workItem from="1603359248216" duration="21145000" />
       <workItem from="1603411536664" duration="5428000" />
+      <workItem from="1603421011063" duration="21502000" />
+      <workItem from="1603493507083" duration="2363000" />
+      <workItem from="1603574973972" duration="10383000" />
     </task>
     <servers />
   </component>

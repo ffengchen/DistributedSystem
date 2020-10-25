@@ -1,13 +1,10 @@
-import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.mysql.cj.x.protobuf.MysqlxExpr.Object;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.sql.*;
-
-import java.util.Collection;
-import java.util.List;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.util.UUID;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -27,21 +24,12 @@ public class SkierServlet extends HttpServlet {
     PrintWriter out = res.getWriter();
     String urlPath = req.getPathInfo();
     String[] urlParts = urlPath.split("/");
-
     if (urlParts.length == 4) {
       String skierId = urlParts[2];
       String queryParams = req.getQueryString();
       String resortId = queryParams.split("=")[1];
-
       String ans = getVerticalForSpecificResort(skierId, resortId);
       JSONObject jsonObject = new JSONObject();
-      try {
-        jsonObject.put("resortID", resortId);
-        jsonObject.put("totalVert", ans);
-      } catch (JSONException e) {
-        e.printStackTrace();
-      }
-
       if (ans.equals("")) {
         try {
           jsonObject.put("message", "invalid input");
@@ -50,7 +38,8 @@ public class SkierServlet extends HttpServlet {
         }
         res.setStatus(HttpServletResponse.SC_BAD_REQUEST);
 
-        out.println(jsonObject);
+        //out.println(jsonObject);
+        out.write(jsonObject.toString());
       } else {
         try {
           jsonObject.put("resortID", resortId);
@@ -59,6 +48,8 @@ public class SkierServlet extends HttpServlet {
           e.printStackTrace();
         }
         out.println(jsonObject);
+        //out.write(jsonObject.toString());
+
         res.setStatus(HttpServletResponse.SC_OK);
       }
     } else if (urlParts.length == 7) {
@@ -74,6 +65,8 @@ public class SkierServlet extends HttpServlet {
           e.printStackTrace();
         }
         out.println(jsonObject);
+        //out.write(jsonObject.toString());
+
         res.setStatus(HttpServletResponse.SC_BAD_REQUEST);
       } else {
 
@@ -84,6 +77,8 @@ public class SkierServlet extends HttpServlet {
           e.printStackTrace();
         }
         out.println(jsonObject);
+        //out.write(jsonObject.toString());
+
         res.setStatus(HttpServletResponse.SC_OK);
       }
     } else {
@@ -94,6 +89,8 @@ public class SkierServlet extends HttpServlet {
         e.printStackTrace();
       }
       out.println(jsonObject);
+      //out.write(jsonObject.toString());
+
       res.setStatus(HttpServletResponse.SC_NOT_FOUND);
 
     }
@@ -119,6 +116,8 @@ public class SkierServlet extends HttpServlet {
         e.printStackTrace();
       }
       out.println(jsonObject1);
+      //out.write(jsonObject1.toString());
+
       res.setStatus(HttpServletResponse.SC_BAD_REQUEST);
       return;
     }
@@ -130,6 +129,8 @@ public class SkierServlet extends HttpServlet {
         e.printStackTrace();
       }
       out.println(jsonObject1);
+      //out.write(jsonObject1.toString());
+
       res.setStatus(HttpServletResponse.SC_NOT_FOUND);
     } else {
       try {
@@ -138,6 +139,8 @@ public class SkierServlet extends HttpServlet {
         e.printStackTrace();
       }
       out.println(jsonObject1);
+      //out.write(jsonObject1.toString());
+
       res.setStatus(HttpServletResponse.SC_OK);
     }
 
@@ -153,7 +156,7 @@ public class SkierServlet extends HttpServlet {
     try {
 
       conn = DatabaseConnector.getConnection();
-      String uuid = UUID.randomUUID().toString().replace("-", "").toLowerCase();
+      String uuid = UUID.randomUUID().toString().replace("-", "");
 
       String insert = "INSERT INTO LiftRides (skierId, resortId, dayId, time, liftId, vertical, liftrideId)  VALUES (?,?,?,?,?,?,?)";
       preparedStatement = conn.prepareStatement(insert);

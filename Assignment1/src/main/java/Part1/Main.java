@@ -9,13 +9,15 @@ import org.apache.log4j.PropertyConfigurator;
 
 public class Main {
 
-  static int numThreads = 128;
+  static int numThreads = 34;
   static int numSkiers = 20000;
   static int liftNum = 40;
   static String dayId = "1";
   static String resortId = "SliverMt";
+  //static String path = "http://localhost:8080/Server_war_exploded/skiers";
+
   //static String path = "http://localhost:8080/skiers/";
-  //static String path = "http://ec2-54-193-221-11.us-west-1.compute.amazonaws.com:8080/Lab2_war_exploded/skiers";
+  //static String path = "http://ec2-34-219-42-134.us-west-2.compute.amazonaws.com:8080/Server_war/skiers";
   static String path;
   static CountDownLatch latch1;
   static CountDownLatch latch2;
