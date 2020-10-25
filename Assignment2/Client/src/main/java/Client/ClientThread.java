@@ -74,7 +74,7 @@ public class ClientThread implements Runnable{
       }
 
       for (int i = 0; num == 3 && i < getRequestNum; i++) {
-        sendGetResort(Arrays.asList("SliverMt"), skierId);
+        sendGetResort(Arrays.asList(Main.resortId), skierId);
       }
 
 

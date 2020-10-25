@@ -133,7 +133,7 @@ public class Main {
   }
   public static void writeCSV() {
     try {
-      FileWriter csvWriter = new FileWriter("records_loadbalanceradded_1_" + numThreads + ".csv");
+      FileWriter csvWriter = new FileWriter("records_loadbalanceradded_" + numThreads + ".csv");
       csvWriter.append("Start time,Request type,Latency,Response code");
       csvWriter.append("\n");
 

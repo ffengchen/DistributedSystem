@@ -7,57 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbe4cf5e-bf13-4e41-bbb4-61a0740d9dd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab2/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/Server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Server_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Server_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_dbcp2_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignment1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignment1/src/main/java/Part1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment1/src/main/java/Part1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignment1/swagger-java-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment1/swagger-java-client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Client1_128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Client1_256.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Client1_32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Client1_64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Client2_128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Client2_256.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Client2_32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Client2_64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/records128.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/records256.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/records32.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/records64.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/main/java/Part1/ClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/main/java/Client/ClientThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/main/java/Part1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/main/java/Client/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/main/java/Part1/Record.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/main/java/Part2/ClientThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/main/java/Part2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/main/java/Part2/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/main/java/Client/Record.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/swagger-java-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/swagger-java-client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Lab2_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/.idea/artifacts/Lab2_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/records_loadbalanceradded_1_128.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/records_loadbalanceradded_128.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/records_loadbalanceradded_1_256.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/records_loadbalanceradded_256.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/records_loadbalanceradded_1_32.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/records_loadbalanceradded_32.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/records_loadbalanceradded_1_64.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/records_loadbalanceradded_64.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/main/java/Client/ClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/main/java/Client/ClientThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/main/java/Client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/main/java/Client/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Lab2_war_exploded/Lab2_war_exploded.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DatabaseConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DatabaseConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SkierServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkierServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DatabaseConnector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Lab2.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SkierServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SkierServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -209,7 +166,7 @@
       <workItem from="1603441328168" duration="5965000" />
       <workItem from="1603493318916" duration="160000" />
       <workItem from="1603493632022" duration="4055000" />
-      <workItem from="1603574947263" duration="4329000" />
+      <workItem from="1603574947263" duration="4678000" />
     </task>
     <servers />
   </component>
